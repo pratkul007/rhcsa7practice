@@ -1,4 +1,4 @@
-|#|GOAL|DESCRIPTION|DURATION|STATUS|RESOURCES
+|#|GOAL|DESCRIPTION|DURATION|STATUS|RESOURCES|
 |1|RHCSA|Read official red hat documentation|2-3 weeks| |Download the **RH199_RHEL7.pdf** from attachments tab on this page
 |2|RHCSA|Read RHEL7 certification guide|2-3 weeks| |Download the **Red Hat RHCSA RHCE 7 Cert Guide.pdf** from attachments tab on this page
 |3|RHCSA|Download and install VMPlayer (for Windows or Linux)|Half day| |[[https:~~/~~/my.vmware.com/web/vmware/downloads>>url:https://my.vmware.com/web/vmware/downloads]] (scroll to the bottom of the page and look for VMWare Workstation Player)
