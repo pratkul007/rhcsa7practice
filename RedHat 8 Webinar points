@@ -1,0 +1,57 @@
+
+As said during the presentation link to the video recording will be shared later. PPTs can be download after logging to the webinar session. 
+
+
+The things that are same in previous and RHEL 8 
+
+ - Enterprise OS on all footprints (i.e whether its on physical machine or on VM or on cloud. It should operate similar on all paltform)
+
+ - Development process will be same i.e first testing gets perfomed on Fedora and then on redhat
+
+ - It can be managed by RedHat Satellite 
+
+
+What is the Different 
+
+ - Starting from redhat 8 there will be regular release cadence
+
+ - more frequent application updates
+
+
+
+Redhat is trying to make the process easy of migrating from one major release to other.
+ - changes to anaconda, improvement in framework for in-place upgrade.
+
+
+Next-Gen container tools
+
+ - buildah
+ - Skopeo
+ - podman
+
+
+In RHEL 8, Yum 4 is based on dnftechnology which makes faster dependencies resolution.
+
+
+Improvements in Networking Services 
+
+ - New TCP/IP stack
+ - Improvements in NetworkManager
+
+
+Storage 
+
+ - Stratis - easy to use CLI for storage management
+
+ - faster snapsho-like support, faster f.s checks
+
+
+Some Questions asked by people
+
+ - Will the AppStream releases be on the same cycle as the BaseOS.
+   Ans - The first thing to understand is that RHEL 8 is composed of BaseOS, the kernel, system tools, resource management, etc. and the AppStreams, which is the userspace components
+
+
+ - Can we perform in-place migrate to RHEL8 from REHL7 or RHEL6 ?
+   Ans - The current plans are to support in-place upgrade with the tooling from RHEL 7 to RHEL 8. The Migration assessment tool can be run on RHEL 6 to provide you with a dashboard view of the differences from RHEL 6 to RHEL 8 so that you can plan. We also plan to update the migration guide to help you migrate from RHEL 6 to RHEL 8.
+
